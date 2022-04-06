@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   
+    font-family: 'Satisfy', cursive;
+}
+
+h1,h2,h3,h4,h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header starts */
+
+
+header{
+    background-image: url("images/abc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.nav-icon{
+    color: white;
+}
+.navbar-brand{
+    width: 60px;
+    height: auto;
+}
+
+.navbar{
+    padding: 1% 5%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-link{
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: .4s;
+   
+}
+.nav-link:hover{
+    background: #e8de;
+    transform: scale(1.1);
+}
+.banner-container h3{
+    margin: 3.5rem;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    font-family: 'Satisfy', cursive;
+}
+
+#features{
+    padding: 5% 5%;
+    background: #e8ded2;
+}
+
+.name{
+    text-decoration: none;
+ 
+    margin: 10px;
+}
+footer{
+    padding: 1% 10%;
+    background:  #000080;
+}
+
+footer a{
+    margin:0 10px;
+    color: white;
+}
+
+footer a:hover{
+  color: black;
+}
+
+.main{
+    text-decoration: none;
+}
+
+.name-highlight{
+    color: brown;
+}
+
+#feedback{
+    padding: 5%;
+    background: #5eaaa8;
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+#chiness{
+    padding: 5%;
+    background: #e8de;
+}
+
+.feedbck-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#Food{
+    padding: 5%;
+    background: #CCCCFF;
+}
+
+#main{
+    padding: 5%;
+    background: #7F8C8D;
+}
+
+
+/*header end*/
+
+
